@@ -1,20 +1,40 @@
 body {
-    background: lightblue;
+    background-image: url(img/background2.jpeg);
 }
 
 
 #title, .subtitle, .post_title {
-    color:blue
+    color: white
+}
+
+#perfil_img {
+    border: 2px solid purple;
+    border-radius: 20%;
+}
+
+.text {
+    color: white;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post_title {
     font-size: 16px;
     font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 .post {
-    background: lightgray;
-    padding: 10px;
-    border: 3px solid black;
+    /*background: lightgray;*/
+    padding: 10px 5px;
+    border: 1px solid purple;
     margin: 5px;
+    border-radius: 10px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.style_img {
+    margin-bottom: 15px;
 }
