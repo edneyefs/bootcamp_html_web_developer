@@ -4,7 +4,23 @@ body {
 
 
 #title, .subtitle, .post_title {
-    color: white
+    color: white;
+}
+
+#title {
+    font-family: Verdana;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    /*text-decoration: underline;*/
+}
+
+.subtitle {
+    font-style: italic;
+    font-weight: bold;
+    text-transform: lowercase;
+    /*text-decoration: overline;*/
 }
 
 #perfil_img {
@@ -19,10 +35,12 @@ body {
 }
 
 .post_title {
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
+    font-family: Verdana, Arial;
     margin: 0;
     margin-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .post {
@@ -37,4 +55,8 @@ body {
 
 .style_img {
     margin-bottom: 15px;
+}
+
+a {
+    color: white;
 }
