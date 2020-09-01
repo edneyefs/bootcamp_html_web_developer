@@ -60,3 +60,29 @@ body {
 a {
     color: white;
 }
+
+.contact_list {
+    list-style-type: none;
+    padding-left: 15;
+}
+.contact_list li a {
+    color: rgb(205, 50, 50);
+}
+
+/*
+ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ul {
+    list-style-type: "\1F44D";
+}
+
+ul {
+    list-style-type: : url("...");
+}
+*/
