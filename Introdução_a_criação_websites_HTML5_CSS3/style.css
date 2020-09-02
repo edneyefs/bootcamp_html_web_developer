@@ -1,5 +1,9 @@
 body {
     background-image: url(img/background2.jpeg);
+    font-family: Verdana;
+    max-width: 1200px;
+    margin: auto;
+    
 }
 
 
@@ -32,6 +36,7 @@ body {
     color: white;
     margin: 0;
     margin-bottom: 15px;
+    text-align: justify;
 }
 
 .post_title {
@@ -55,6 +60,7 @@ body {
 
 .style_img {
     margin-bottom: 15px;
+    width: 100%;
 }
 
 a {
@@ -68,6 +74,7 @@ a {
 .contact_list li a {
     color: rgb(205, 50, 50);
 }
+
 
 /*
 ul {
