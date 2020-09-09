@@ -1,4 +1,4 @@
-/*
+/* fontes de imagens
 https://www.themoviedb.org/?language=pt-BR
 https://fontawesome.com
 */
@@ -72,6 +72,7 @@ header nav a:hover {
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
+/*estilizando os botões*/
 .botao {
     background-color: rgba(0,0,0,.50);
     border: none;
@@ -85,11 +86,25 @@ header nav a:hover {
     transition: .3s ease all;
 }
 
+/*Inserindo iteratividade nos botões*/
 .botao:hover {
     background-color: white;
     color: black;
 }
 
+/*Distanciando texto do icone no botão*/
 .botao i {
     margin-right: 8px;
 }
+
+/*Estilizando containers*/
+.container {
+    margin-left: 20px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+
+# WRAPPER = ENVELOPAR
