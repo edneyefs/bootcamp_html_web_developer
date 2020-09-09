@@ -1,6 +1,7 @@
-/* fontes de imagens
+/* fontes de imagens e icones
 https://www.themoviedb.org/?language=pt-BR
 https://fontawesome.com
+https://owlcarousel2.github.io/OwlCarousel2/
 */
 
 :root {
@@ -97,7 +98,7 @@ header nav a:hover {
     margin-right: 8px;
 }
 
-/*Estilizando containers*/
+/*Formatando containers*/
 .container {
     margin-left: 20px;
 }
@@ -106,5 +107,11 @@ header nav a:hover {
     width: 70%;
 }
 
+/*# WRAPPER = ENVELOPAR*/
 
-# WRAPPER = ENVELOPAR
+/*Padronizando tamanho das imagens carousel*/
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
