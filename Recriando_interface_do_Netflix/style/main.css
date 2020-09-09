@@ -9,9 +9,12 @@
     box-sizing: border-box;
 }
 
+
+/*Elementos base*/
 body {
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container {
@@ -37,3 +40,27 @@ header nav a {
 header nav a:hover {
     color: #fff;
 }
+
+/*Filme pricipal*/
+.filme-principal {
+    font-size: 16px;
+    background: /*linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%)*/ url('/Recriando_interface_do_Netflix/img/the_boys_fundo3.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 40px;
+}
+
