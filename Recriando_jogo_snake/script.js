@@ -85,7 +85,6 @@ function startGame() {
         x: snakeX,
         y: snakeY
     }
-
     snake.unshift(newHead);
 }
 
